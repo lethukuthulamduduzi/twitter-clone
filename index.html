@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="96x96" rel="icon" href="Assets/icons8-twitter-96 (2).png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+        <!-- Nav -->
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="r-1nao33i r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+            </div>
+            <div class="menu-items">
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined  filled">home</span>
+                    </div>
+                    <span class="item-text">Home</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">search</span>
+                    </div>
+                    <span class="item-text">Search</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">notifications</span>
+                    </div>
+                    <span class="item-text">Notifications</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">mail</span>
+                    </div>
+                    <span class="item-text">Messages</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">list_alt</span>
+                    </div>
+                    <span class="item-text">Lists</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">group</span>
+                    </div>
+                    <span class="item-text">Communities</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="r-1nao33i r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+                    </div>
+                    <span class="item-text">Premium</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">person</span>
+                    </div>
+                    <span class="item-text">Profile</span>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <span class="material-symbols-outlined ">more_horiz</span>
+                    </div>
+                    <span class="item-text">More</span>
+                </div>
+                <div class="item post-btn">
+                    <button class="btn">Post</button>
+                </div>
+            </div>
+            <div class="account">
+                <img src="Assets/profile picture.jpg" alt="">
+                <div class="account-details">
+                    <span class="name">Lethukuthula...</span>
+                    <span class="handle">@Ziks_Lethu</span>
+                </div>
+                <span class="material-symbols-outlined ">more_horiz</span>
+            </div>
+        </nav>
+        <!-- Nav -->
+
+        <main>
+            <!-- Feed -->
+            <div class="feed-container">
+                <div class="feed-header">
+                    <div class="feed-nav">
+                        <h1>Home</h1>
+                        <div class="nav-items">
+                            <div>
+                                <button>For you</button>
+                                <div class="line"></div>
+                            </div>
+                            <div>
+                                <button>Following</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-editor">
+                        <div class="profile-picture-container">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="post-text" placeholder="What is happening?!">
+                            <div class="post-icons">
+                                <div class="icons">
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">imagesmode</span>
+                                        <span class="tooltip-text">Media</span>
+                                    </div>
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">gif_box</span>
+                                        <span class="tooltip-text">GIF</span>
+                                    </div>
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">ballot</span>
+                                        <span class="tooltip-text">Poll</span>
+                                    </div>
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">mood</span>
+                                        <span class="tooltip-text">Emoji</span>
+                                    </div>
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">calendar_clock</span>
+                                        <span class="tooltip-text">Schedule</span>
+                                    </div>
+                                    <div class="tooltip">
+                                        <span class="material-symbols-outlined tooltip-icon">location_on</span>
+                                        <span class="tooltip-text">Location</span>
+                                    </div>
+                                </div>
+                                <button class="btn">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feed">
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-picture">
+                            <img src="Assets/profile picture.jpg" alt="">
+                        </div>
+                        <div class="post-info">
+                            <div class="post-header">
+                                <div class="postee-info">
+                                    <a href="#" class="name">Candice Owens</a>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                    <p class="handle">@RealCandiceO</p>
+                                    <div class="separator"></div>
+                                    <a href="#" class="post-time">Oct 19</a>
+                                </div>
+                                <div class="tooltip more">
+                                    <span class="material-symbols-outlined icon more-icon">more_horiz</span>
+                                    <span class="tooltip-text">More</span>
+                                </div>
+                            </div>
+                            <div class="actual-post">
+                                <p>You cannot slur people into seeing things your way.</p>
+                            </div>
+                            <div class="post-footer">
+                                <div class="tooltip reply">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon reply">quick_phrases</span>
+                                        <span class="icon-text reply-text">437</span>
+                                    </div>
+                                    <span class="tooltip-text">Reply</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon repost">sync</span>
+                                        <span class="icon-text repost-text">718</span>
+                                    </div>
+                                    <span class="tooltip-text">Repost</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon like">favorite</span>
+                                        <span class="icon-text like-text">5,245</span>
+                                    </div>
+                                    <span class="tooltip-text">Like</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon views">equalizer</span>
+                                        <span class="icon-text views-text">330.6K</span>
+                                    </div>
+                                    <span class="tooltip-text">Views</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltip-icon">
+                                        <span class="material-symbols-outlined icon share">share</span>
+                                    </div>
+                                    <span class="tooltip-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feed -->
+
+            <!-- Trending -->
+            <div class="trending-container">
+                <div class="search-container">
+                    <span class="material-symbols-outlined icon">search</span>
+                    <input type="text" class="search-bar" placeholder="Search">
+                </div>
+                <div class="subscribe">
+                    <h2>Subscribe to Premium</h2>
+                    <h5>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</h5>
+                    <button class="btn">Subscribe</button>
+                </div>
+                <div class="trending-content">
+                    <h2>Trends for you</h2>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">Zungu</h3>
+                        <p class="posts-count">10.1K posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">IT HAS HAPPENED</h3>
+                        <p class="posts-count">47.1K posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">Nasty C</h3>
+                        <p class="posts-count">3,963 posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">#SenzoMeyiwaTrial</h3>
+                        <p class="posts-count">3,797 posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">Zungu</h3>
+                        <p class="posts-count">10.1K posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">IT HAS HAPPENED</h3>
+                        <p class="posts-count">47.1K posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">Nasty C</h3>
+                        <p class="posts-count">3,963 posts</p>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-top-row">
+                            <p>Trending in South Africa</p>
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                        <h3 class="trending-title">#SenzoMeyiwaTrial</h3>
+                        <p class="posts-count">3,797 posts</p>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">Show more</a>
+                    </div>
+                </div>
+                <div class="who-to-follow">
+                    <h2>Who to follow</h2>
+                    <div class="suggested-profile-container">
+                        <div class="suggested-profile">
+                            <img src="Assets/profile picture.jpg" alt="">
+                            <div class="profile-details">
+                                <div class="account-name">
+                                    <h3>NASA</h3>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                </div>
+                                <p class="handle">@NASA</p>
+                            </div>
+                            <button class="btn">Follow</button>
+                        </div>
+                        <div class="suggested-profile">
+                            <img src="Assets/profile picture.jpg" alt="">
+                            <div class="profile-details">
+                                <div class="account-name">
+                                    <h3>NASA</h3>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                </div>
+                                <p class="handle">@NASA</p>
+                            </div>
+                            <button class="btn">Follow</button>
+                        </div>
+                        <div class="suggested-profile">
+                            <img src="Assets/profile picture.jpg" alt="">
+                            <div class="profile-details">
+                                <div class="account-name">
+                                    <h3>NASA</h3>
+                                    <span class="material-symbols-outlined filled">verified</span>
+                                </div>
+                                <p class="handle">@NASA</p>
+                            </div>
+                            <button class="btn">Follow</button>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">Show more</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="top-row">
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                    <div class="bottom-row">
+                        <a href="#">Accessibility</a>
+                        <a href="#">Ads info</a>
+                        <a href="#">More <span class="material-symbols-outlined filled">more_horiz</span></a>
+                        <p>&copy;2023 X Corp</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Trending -->
+        </main>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-1nao33i r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+
+
+    
+
+    
+-->
